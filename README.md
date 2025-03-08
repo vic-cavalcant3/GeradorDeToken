@@ -1,9 +1,9 @@
-## 💡Gerador de Token - Projeto ADS💡
-Projeto de geração de tokens usando React e JavaScript.
+# 🎈Gerador de Token - Projeto ADS🎈
+Este é um projeto de um gerador de tokens desenvolvido em React e JavaScript, com foco em dispositivos móveis. O objetivo principal é permitir que o usuário gere tokens aleatórios e os salve para uso posterior de forma simples e interativa.
+Foi desenvolvido no meu terceiro semestre de ADS no SENAI como parte de um projeto de curso.
 
-Este é um projeto de um gerador de tokens desenvolvido em React e JavaScript. O objetivo é gerar tokens aleatórios de forma simples e interativa.
-Este projeto foi desenvolvido no meu terceiro semestre de ADS no SENAI.
-
+<br>
+<br>
  ## 💻 Tecnologias Utilizadas 💻
 
 REACT: Framework principal para a interface de usuário.
