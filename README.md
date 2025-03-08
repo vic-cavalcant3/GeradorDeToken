@@ -1,12 +1,12 @@
-##Gerador de Token - Projeto ADS##
+##Gerador de Token - Projeto ADS
 Projeto de geração de tokens usando React e JavaScript.
 
-#Tecnologias#
+#Tecnologias
 React
 JavaScript
 CSS
 
-#Funcionalidades#
+#Funcionalidades
 Geração de tokens aleatórios.
 Interface simples e interativa.
 Copiar o token gerado.
