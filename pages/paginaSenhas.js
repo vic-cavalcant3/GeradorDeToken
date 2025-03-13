@@ -23,21 +23,30 @@ export function PaginaSenhas() {
     defListaTokens(tokens);
   }
 
+   async function copiarToken() {
+          await Clipboard.setStringAsync(token)
+          alert("Token copiado para área de transferência.")
+          fechar();}
+
   return (
     <SafeAreaView style={{ flex: 1 }}>
       <View style={ESTILO.header}>
         <Text style={ESTILO.title}>Minhas senhas!!</Text>
-      </View>
+      </View>        
+      
+    
 
-      <View style={ESTILO.content}>
+      <View style={ESTILO.content}>  
+       
         <FlatList
           style={{ flex: 1, paddingTop: 14 }}
           data={listaTokens}
           keyExtractor={(item) => String(item)}
-          renderItem={({ item }) => (
-            <CaixaToken token={item} removerToken={() => deletarToken(item)} />
+          renderItem={({ item }) => ( 
+            <CaixaToken  token={item} removerToken={() => deletarToken(item) } />
           )}
         />
+
       </View>
     </SafeAreaView>
   );

@@ -1,5 +1,7 @@
 import React from "react";
 import { Text, StyleSheet, Pressable } from "react-native";
+import { Ionicons } from "@expo/vector-icons/";
+
 
 export function CaixaToken({token, removerToken}) {
     return (
@@ -7,6 +9,10 @@ export function CaixaToken({token, removerToken}) {
             <Text style={ESTILOS.text}>
                 {token}
             </Text>
+
+            <TouchableOpacity onPress = {removerToken}>
+            <Ionicons size={25} color={"#fff"} name="trash" />
+            </TouchableOpacity>
         </Pressable>
     )
 }
