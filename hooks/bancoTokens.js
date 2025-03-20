@@ -1,17 +1,18 @@
 import AsyncStorage from '@react-native-async-storage/async-storage'
 
 export default function Armazenamento() {
-
+    
     async function obterItem(chave) {
         try {
             const tokens = await AsyncStorage.getItem(chave);
-            return JSON.parse(tokens) || [];}
+            return JSON.parse(tokens) || [];
+        }
 
         catch (erro) {
             alert("Erro ao obter itens", erro)
-            return [];}
+            return [];
+        }
     }
-
 
     async function salvarItem(chave, valor) {
         try {
@@ -27,13 +28,12 @@ export default function Armazenamento() {
     async function removerItem(chave, item) {
         try {
             let tokens = await obterItem(chave);
-            let tokensAtualizados = tokens.filter((tokens) => {
-                return (tokens !== item)
+            let tokensAtualizados = tokens.filter((token) => {
+                return (token !== item)
             })
-
             await AsyncStorage.setItem(chave, JSON.stringify(tokensAtualizados))
             return tokensAtualizados;
-                        
+
         } catch (erro) {
             alert("Erro ao remover item", erro)
         }
@@ -44,14 +44,4 @@ export default function Armazenamento() {
         salvarItem,
         removerItem
     }
-}
-
-export function CaixaToken() {
-    return (
-        <Pressable style={ESTILOS.caixa}>
-            <Text style={ESTILOS.text}>
-                Token salvo
-            </Text>
-        </Pressable>
-    )
 }
