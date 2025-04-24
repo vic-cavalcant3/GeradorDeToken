@@ -5,7 +5,7 @@ Foi desenvolvido no meu terceiro semestre de ADS no SENAI como parte de um proje
 <br>
 <br>
 
- # 💻 Tecnologias Utilizadas 💻
+ ## 💻 Tecnologias Utilizadas 💻
 
 REACT: Framework principal para a interface de usuário.
 
