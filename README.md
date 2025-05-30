@@ -1,14 +1,34 @@
-# 🎈Gerador de Token - Projeto ADS🎈
-Este é um projeto de um gerador de tokens desenvolvido em React e JavaScript, com foco em dispositivos móveis. O objetivo principal é permitir que o usuário gere tokens aleatórios e os salve para uso posterior de forma simples e interativa.
-Foi desenvolvido no meu terceiro semestre de ADS no SENAI como parte de um projeto de curso.
+# 🎈 Gerador de Token – Projeto ADS
 
-<br>
-<br>
+Este é um projeto de um **gerador de tokens aleatórios** desenvolvido com **React** e **JavaScript**, com foco em **dispositivos móveis** e **experiência do usuário simples e intuitiva**.
+O objetivo principal é permitir que o usuário gere e visualize tokens de forma prática, podendo salvá-los para uso posterior.  
+Este projeto foi desenvolvido durante o **3º semestre do curso de Análise e Desenvolvimento de Sistemas** no **SENAI**, como parte de um desafio prático da disciplina.
 
- ## 💻 Tecnologias Utilizadas 💻
+---
 
-REACT: Framework principal para a interface de usuário.
+## 💡 Funcionalidades
 
-JAVASRIPT: Lógica para gerar tokens aleatórios.
+- 🔐 **Geração de Tokens Aleatórios**
+- 💾 **Armazenamento local de tokens**
+- 🔄 **Atualização dinâmica da interface**
+- 🎯 **Design responsivo para mobile-first**
+- ⚡ **Experiência rápida e interativa**
 
-CSS: Estilização da aplicação.
+---
+
+## 🚀 Tecnologias Utilizadas
+
+- **React** – Framework principal para construção da interface
+- **JavaScript** – Lógica para geração e manipulação dos tokens
+- **CSS** – Estilização responsiva da aplicação
+
+---
+
+## 📦 Como Rodar o Projeto
+
+- git clone https://github.com/vic-cavalcant3/firebaseLogin.git
+- cd SmartKitchen
+- npm install
+- npm start
+- clique no w pra abrir o web e a para abrir no android
+
