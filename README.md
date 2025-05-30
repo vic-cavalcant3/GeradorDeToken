@@ -26,7 +26,7 @@ Este projeto foi desenvolvido durante o **3º semestre do curso de Análise e De
 
 ## 📦 Como Rodar o Projeto
 
-- git clone https://github.com/vic-cavalcant3/firebaseLogin.git
+- git clone https://github.com/vic-cavalcant3/GeradorDeToken.git
 - cd SmartKitchen
 - npm install
 - npm start
